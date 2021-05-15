@@ -39,6 +39,20 @@ Group.new('FoldColumn',         colors.orange,          colors.darkgrey)
 Group.new('SignColumn',         colors.grey,            colors.none)
 Group.new('Folded',             colors.orange,          colors.darkgrey)
 
+-- Messages
+Group.new('Title',              colors.orange,          colors.none,            styles.bold)
+Group.new('ErrorMsg',           colors.yellow,          colors.darkred,         styles.bold)
+Group.new('ModeMsg',            colors.none,            colors.none,            styles.bold)
+Group.new('MoreMsg',            colors.green,           colors.none,            styles.bold)
+Group.new('WarningMsg',         colors.red,             colors.none)
+
+-- Menus
+Group.new('Pmenu',              colors.white,           colors.darkgrey)
+Group.new('PmenuSel',           colors.black,           colors.green,           styles.bold)
+Group.new('PmenuSbar',          colors.none,            colors.darkgrey)
+Group.new('PmenuThumb',         colors.none,            colors.grey)
+Group.new('WildMenu',           colors.black,           colors.green,           styles.bold)
+
 -- Text
 Group.new('Conceal',            colors.grey,            colors.grey)
 Group.new('Directory',          colors.magenta,         colors.none)
