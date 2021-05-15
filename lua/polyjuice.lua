@@ -39,6 +39,21 @@ Group.new('FoldColumn',         colors.orange,          colors.darkgrey)
 Group.new('SignColumn',         colors.grey,            colors.none)
 Group.new('Folded',             colors.orange,          colors.darkgrey)
 
+-- Statusline
+Group.new('StatusLine',         colors.none,            colors.black)
+Group.new('StatusLineTerm',     colors.black,           colors.green,           styles.bold)
+Group.new('StatusLineNF',       colors.grey,            colors.darkgrey)
+Group.new('StatusLineNC',       colors.none,            colors.none)
+Group.new('Buffer',             colors.green,           colors.none)
+Group.new('Top',                colors.black,           colors.grey)
+Group.new('Middle',             colors.white,           colors.darkgrey)
+Group.new('Bottom',             colors.darkcyan,        colors.black)
+Group.new('NormalMode',         colors.black,           colors.green,           styles.bold)
+Group.new('VisualMode',         colors.black,           colors.magenta,         styles.bold)
+Group.new('InsertMode',         colors.black,           colors.cyan,            styles.bold)
+Group.new('ReplaceMode',        colors.black,           colors.orange,          styles.bold)
+Group.new('CommandMode',        colors.black,           colors.yellow,          styles.bold)
+
 -- Messages
 Group.new('Title',              colors.orange,          colors.none,            styles.bold)
 Group.new('ErrorMsg',           colors.yellow,          colors.darkred,         styles.bold)
