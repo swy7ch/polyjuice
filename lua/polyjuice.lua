@@ -91,8 +91,21 @@ Group.new('Todo',               colors.black,           colors.orange,          
 Group.new('Type',               colors.yellow,          colors.none,            styles.bold)
 Group.new('Underlined',         colors.darkblue,        colors.none,            styles.underline)
 
+-- Diffs
+Group.new('DiffAdd',            colors.black,           colors.darkgreen)
+Group.new('DiffChange',         colors.black,           colors.orange)
+Group.new('DiffDelete',         colors.black,           colors.darkred,         styles.bold)
+Group.new('DiffText',           colors.black,           colors.red,             styles.bold)
+
 -- Spell
 Group.new('SpellBad',           colors.red,             colors.none,            styles.underline)
 Group.new('SpellCap',           colors.blue,            colors.none)
 Group.new('SpellLocal',         colors.magenta,         colors.none,            styles.bold)
 Group.new('SpellRare',          colors.orange,          colors.none)
+
+-- git
+Group.new('gitcommitSummary',   colors.blue,            colors.none,            styles.bold)
+Group.new('gitcommitBranch',    colors.darkgreen,       colors.none,            styles.bold)
+Group.new('gitcommitHeader',    colors.magenta,         colors.none,            styles.bold)
+Group.new('gitcommitFile',      colors.green,           colors.none)
+Group.new('gitcommitType',      colors.red,             colors.none,            styles.bold)
