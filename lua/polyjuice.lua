@@ -3,8 +3,7 @@
 -- License       : GPLv3
 -- Description   : a simple pastel colorscheme for neovim
 
-require('colorbuddy').setup()
-local Color = require('colorbuddy.color').Color
+local Color, colors, Group, groups, styles = require('colorbuddy').setup()
 
 Color.new('black', 		'#1d2021')
 Color.new('darkred', 		'#b73935')
