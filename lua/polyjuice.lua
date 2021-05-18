@@ -112,7 +112,7 @@ Group.new('Keyword',            g.Statement,            g.Statement,            
 Group.new('Label',              g.Statement,            g.Statement,            g.Statement)
 Group.new('Operator',           g.Statement,            g.Statement,            g.Statement)
 Group.new('Repeat',             g.Statement,            g.Statement,            g.Statement)
-Group.new('Todo',               c.black,                c.orange,               s.bold)
+Group.new('Todo',               c.black,                c.yellow,               s.bold)
 Group.new('Type',               c.cyan,                 c.none)
 Group.new('StorageClass',       g.Type,                 g.Type,                 g.Type)
 Group.new('Structure',          g.Type,                 g.Type,                 g.Type)
