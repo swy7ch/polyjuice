@@ -99,7 +99,7 @@ Group.new('Define',             g.PreProc,              g.PreProc,              
 Group.new('Include',            g.PreProc,              g.PreProc,              g.PreProc)
 Group.new('Macro',              g.PreProc,              g.PreProc,              g.PreProc)
 Group.new('PreCondit',          g.PreProc,              g.PreProc,              g.PreProc)
-Group.new('Special',            c.orange,               c.none,                 s.bold)
+Group.new('Special',            c.orange,               c.none)
 Group.new('SpecialChar',        g.Special,              g.Special,              g.Special)
 Group.new('SpecialComment',     g.Special,              g.Special,              g.Special)
 Group.new('Debug',              g.Special,              g.Special,              g.Special)
