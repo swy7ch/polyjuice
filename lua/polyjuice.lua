@@ -138,7 +138,7 @@ Group.new('gitcommitFile',      c.green,                c.none)
 Group.new('gitcommitType',      c.red,                  c.none,                 s.bold)
 
 -- LSP
-Group.new("LspDiagnosticsDefaultError",         c.red,          c.none,         s.bold)
-Group.new("LspDiagnosticsDefaultHint",          c.yellow,       c.none,         s.bold)
-Group.new("LspDiagnosticsDefaultInformation",   c.blue,         c.none,         s.bold)
-Group.new("LspDiagnosticsDefaultWarning",       c.orange,       c.none,         s.bold)
+Group.new("DiagnosticError",     c.red,          c.none,         s.bold)
+Group.new("DiagnosticHint",      c.yellow,       c.none,         s.bold)
+Group.new("DiagnosticInfo",      c.blue,         c.none,         s.bold)
+Group.new("DiagnosticWarn",      c.orange,       c.none,         s.bold)
