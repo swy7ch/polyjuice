@@ -5,9 +5,9 @@
 
 local Color, c, Group, g, s = require('colorbuddy').setup()
 
-Color.new('black',              '#1d2021')
+Color.new('black',              '#131616')
 Color.new('darkred',            '#b73935')
-Color.new('darkgreen',          '#5d9179')
+Color.new('darkgreen',          '#427d61')
 Color.new('orange',             '#f7a583')
 Color.new('darkblue',           '#458588')
 Color.new('darkmagenta',        '#b16286')
@@ -119,7 +119,7 @@ Group.new('Typedef',            g.Type,                 g.Type,                 
 Group.new('Underlined',         c.darkblue,             c.none,                 s.underline)
 
 -- Diffs
-Group.new('DiffAdd',            c.black,                c.darkgreen)
+Group.new('DiffAdd',            c.black,                c.green)
 Group.new('DiffChange',         c.black,                c.orange)
 Group.new('DiffDelete',         c.black,                c.darkred,              s.bold)
 Group.new('DiffText',           c.black,                c.red,                  s.bold)
@@ -132,7 +132,7 @@ Group.new('SpellRare',          c.orange,               c.none)
 
 -- git
 Group.new('gitcommitSummary',   c.blue,                 c.none,                 s.bold)
-Group.new('gitcommitBranch',    c.darkgreen,            c.none,                 s.bold)
+Group.new('gitcommitBranch',    c.green,                c.none,                 s.bold)
 Group.new('gitcommitHeader',    c.magenta,              c.none,                 s.bold)
 Group.new('gitcommitFile',      c.green,                c.none)
 Group.new('gitcommitType',      c.red,                  c.none,                 s.bold)
@@ -142,3 +142,7 @@ Group.new("DiagnosticError",     c.red,          c.none,         s.bold)
 Group.new("DiagnosticHint",      c.yellow,       c.none,         s.bold)
 Group.new("DiagnosticInfo",      c.blue,         c.none,         s.bold)
 Group.new("DiagnosticWarn",      c.orange,       c.none,         s.bold)
+
+-- Coq
+Group.new("CoqtailChecked",     c.none,         c.darkgreen)
+Group.new("CoqtailSent",       c.none,         c.darkgrey)
